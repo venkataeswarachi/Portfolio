@@ -1,0 +1,62 @@
+/* Projects.css */
+
+.projects-section {
+  padding: 5rem 1.5rem;
+  background-color: #f3f4f6; /* gray-100 */
+}
+
+.projects-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.project-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.project-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-title {
+  font-size: 1.25rem; /* text-xl */
+  font-weight: 600;
+}
+
+.project-tech {
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-gray-500 */
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  margin-bottom: 1rem;
+}
+
+.project-link {
+  color: #4f46e5; /* text-indigo-600 */
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

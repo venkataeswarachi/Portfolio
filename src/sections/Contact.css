@@ -1,0 +1,22 @@
+/* Contact.css */
+
+.contact-section {
+  padding: 5rem 1.5rem;
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.contact-link {
+  color: #4f46e5; /* text-indigo-600 */
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}

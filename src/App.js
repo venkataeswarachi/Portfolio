@@ -1,22 +1,26 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contacts from "./components/Contacts";
-import "./App.css"
-function App() {
+// src/App.jsx
+import Navbar from './components/Navbar';
+import Hero from './sections/Hero';
+import About from './sections/About';
+import Projects from './sections/Projects';
+import Skills from './sections/Skills';
+import Contact from './sections/Contact';
+import Footer from './components/Footer';
+
+import Experience from './sections/Experience';
+
+export default function App() {
   return (
-    <>
+    <div className="font-sans bg-gray-50 text-gray-800">
       <Navbar />
-      <Home />
+      <Hero />
       <About />
+      <Experience/>
       <Skills />
+      
       <Projects />
-      <Contacts />
-    </>
+      <Contact />
+      <Footer />
+    </div>
   );
 }
-
-export default App;

@@ -1,0 +1,42 @@
+/* Hero.css */
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #292932, #58a96b); /* Indigo to Purple */
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero-title {
+  font-size: 2.25rem; /* text-4xl */
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .hero-title {
+    font-size: 3.75rem; /* sm:text-6xl */
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.25rem; /* text-xl */
+  margin-top: 1rem;
+}
+
+.hero-button {
+  margin-top: 1.5rem;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  color: #4f46e5; /* Indigo-600 */
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+}
